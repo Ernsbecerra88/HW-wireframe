@@ -5,56 +5,63 @@ font-size: 18PX;
 color: #777;
 width: 960px;
 text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
+
 header{
 background-color: #ebebeb;
 padding: 20px;
 }
+
 nav{
     background-color: #ebebeb;
     padding: 20px;
     }
-.section {
+
+section {
     background-color: #ebebeb;
     float: left;
-    width: 496px;
+    width: 475px;
     height: 230px;
 }
+
 article {
     background-color: #777;
     color:  #ebebeb;  
     padding: 20px;
     width: 350px;
     margin-left: 50px;
-    
 }
-.aside {
+
+aside {
     background-color: #ebebeb;
     float: right;
-    width: 400px;
+    width: 475px;
     height: 230px;
-
 }
+
+.clearfix{
+    overflow: auto;
+}
+
 p {
     background-color: #ebebeb;
     color:  #777;  
-
 }
+
 h2 {
     background-color: #ebebeb;
     color:  #777; 
 }
-.clearfix ::after {
-    content: ""; 
-    display: block;
-    clear: both;
-}
+
 footer {
     background-color: #ebebeb;
-    color:  #777; 
-    position: relative; top:250px;
+    color:  #777;    
+    margin-top: 10px;
     padding: 20px;
 }
+
 
 
 
