@@ -49,6 +49,7 @@ aside {
 p {
     background-color: #ebebeb;
     color:  #777;  
+    margin: 0px;
 }
 
 h2 {
@@ -74,7 +75,7 @@ footer {
             float: bottom;
         }
         footer{
-            margin-top: 200px;
+            margin-top: 165px;
         }
 }
 
