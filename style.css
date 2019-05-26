@@ -31,7 +31,8 @@ article {
     color:  #ebebeb;  
     padding: 20px;
     width: 350px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 aside {
@@ -62,6 +63,72 @@ footer {
     padding: 20px;
 }
 
+@media (max-width:450px){
+    body {
+        font-size: 40PX;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        aside {
+            float: bottom;
+        }
+        footer{
+            margin-top: 155px;
+        }
+}
 
+@media (min-width:451px) and (max-width:540px){
+    body {
+        font-size: 35PX;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        aside {
+            float: bottom;
+        }
+        footer{
+            margin-top: 115px;
+        }
+}
 
+@media (min-width:541px) and (max-width:768px){
+    body {
+        font-size: 30PX;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        aside {
+            float: bottom;
+        }
+        footer{
+            margin-top: 70px;
+        }
+}
 
+@media (min-width:769px) and (max-width:1024px){
+    body {
+        font-size: 25PX;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        footer{
+            margin-top: 30px;
+        }
+}
+
+@media (min-width:1025px) and (max-width:1200px){
+    body {
+        font-size: 20PX;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+
+@media (min-width:1201px) {
+
+}
